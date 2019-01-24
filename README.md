@@ -28,4 +28,10 @@ different beers that were reviewed. This totalled 86,133 reviews amongst all use
 
 Next we created a beer matrix that included the name of the beer,  ABV, brewery, and type of the beer.
 
+![alt text](https://github.com/scbronder/beer_recommendations/blob/master/Screen%20Shot%202019-01-24%20at%209.05.38%20AM.png)
 
+# Data Processing
+Now that we had all of our data we had to normalize the results. We extracted all of the values from the sparse matrix and 
+subtracted the average from each column from each of the populated values. From there we created a were able to run a 
+Single Value Decomposition (SVD) using the scipy.sparse.linalg library. This applies a linear transformation using the sigma
+matrix as weights for the transformation. 
