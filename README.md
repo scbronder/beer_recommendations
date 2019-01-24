@@ -35,3 +35,14 @@ Now that we had all of our data we had to normalize the results. We extracted al
 subtracted the average from each column from each of the populated values. From there we created a were able to run a 
 Single Value Decomposition (SVD) using the scipy.sparse.linalg library. This applies a linear transformation using the sigma
 matrix as weights for the transformation. 
+
+![alt text](https://github.com/scbronder/beer_recommendations/blob/master/Screen%20Shot%202019-01-24%20at%209.21.20%20AM.png)
+
+Next we make our predictions from this weighted diagonal matrix. These predictions are rating recommendations for every user
+against every beer that the user has already has made a review for. We then applied this model agains the entire data set to 
+allow us to predict new ratings that users have not yet rated. From this we built a function to suggest top recommendations
+for each user using the weighted predictions and from the original user ratings. 
+
+
+
+
