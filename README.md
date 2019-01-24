@@ -58,7 +58,7 @@ We found that the SVD that we ran had a comparitively acceptable lowest RMSE!
 
 Additionally we found which type of beer received the most reviews,
 
-
+![alt text](https://github.com/scbronder/beer_recommendations/blob/master/Screen%20Shot%202019-01-24%20at%209.47.25%20AM.png)
 
 the brewery with the most reviews,
 
