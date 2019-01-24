@@ -23,4 +23,4 @@ in terms of types of beers, frequency, and variety that we could sample from.
 Using Beautiful Soup we were able to scrape user's profiles and create a sparse matrix for 2,682 users that resulted in 32,917
 different beers that were reviewed. This totalled 86,133 reviews amongst all users that were collected.
 
-![alt text](Screen Shot 2019-01-24 at 8.53.14 AM)
+![alt text](https://github.com/scbronder/beer_recommendations/blob/master/Screen%20Shot%202019-01-24%20at%208.53.14%20AM.png)
