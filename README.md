@@ -39,10 +39,14 @@ matrix as weights for the transformation.
 ![alt text](https://github.com/scbronder/beer_recommendations/blob/master/Screen%20Shot%202019-01-24%20at%209.21.20%20AM.png)
 
 Next we make our predictions from this weighted diagonal matrix. These predictions are rating recommendations for every user
-against every beer that the user has already has made a review for. We then applied this model agains the entire data set to 
+against every beer that the user has already reviewed. We then applied this model against the entire data set to 
 allow us to predict new ratings that users have not yet rated. From this we built a function to suggest top recommendations
 for each user using the weighted predictions and from the original user ratings. 
 
+![alt text](https://github.com/scbronder/beer_recommendations/blob/master/Screen%20Shot%202019-01-24%20at%209.29.43%20AM.png)
+
+If you wanted suggestions for a particular beer that you like, we created a function that would return the user whomm rated
+a beer of choice the highest and return that user's specific top recommendations.
 
 
 
