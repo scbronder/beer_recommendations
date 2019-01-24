@@ -70,4 +70,4 @@ which ABV of beer was most frequently reviewed,
 
 and the spread of the most reivewd beer types across the most rated breweries.
 
-
+![alt text](https://github.com/scbronder/beer_recommendations/blob/master/Screen%20Shot%202019-01-24%20at%209.48.36%20AM.png)
