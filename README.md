@@ -54,4 +54,20 @@ If you wanted suggestions given a particular beer that you like, we created a fu
  After collecting all of this data we cross validated using the surprise.model_selection library and including models SVD, KNNBaseline, KNNBasic, KNNWithMeans, KNNWithZScore, BaselineOnly, and CoClustering. 
 We found that the SVD that we ran had a comparitively acceptable lowest RMSE! 
 
+![alt text](https://github.com/scbronder/beer_recommendations/blob/master/Screen%20Shot%202019-01-24%20at%209.44.14%20AM.png)
+
+Additionally we found which type of beer received the most reviews,
+
+
+
+the brewery with the most reviews,
+
+
+
+which ABV of beer was most frequently reviewed,
+
+
+
+and the spread of the most reivewd beer types across the most rated breweries.
+
 
