@@ -45,8 +45,13 @@ for each user using the weighted predictions and from the original user ratings.
 
 ![alt text](https://github.com/scbronder/beer_recommendations/blob/master/Screen%20Shot%202019-01-24%20at%209.29.43%20AM.png)
 
-If you wanted suggestions for a particular beer that you like, we created a function that would return the user whomm rated
-a beer of choice the highest and return that user's specific top recommendations.
+If you wanted suggestions given a particular beer that you like, we created a function that would return the beer's highest rating user's top recommendations.
 
+ ![alt text](https://github.com/scbronder/beer_recommendations/blob/master/Screen%20Shot%202019-01-24%20at%209.37.26%20AM.png)
+ 
+ # Validation and Results
+ 
+ After collecting all of this data we cross validated using the surprise.model_selection library and including models SVD, KNNBaseline, KNNBasic, KNNWithMeans, KNNWithZScore, BaselineOnly, and CoClustering. 
+We found that the SVD that we ran had a comparitively acceptable lowest RMSE! 
 
 
