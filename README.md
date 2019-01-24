@@ -66,7 +66,7 @@ the brewery with the most reviews,
 
 which ABV of beer was most frequently reviewed,
 
-
+![alt text](https://github.com/scbronder/beer_recommendations/blob/master/Screen%20Shot%202019-01-24%20at%209.50.54%20AM.png)
 
 and the spread of the most reivewd beer types across the most rated breweries.
 
